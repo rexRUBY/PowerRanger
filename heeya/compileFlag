@@ -1,0 +1,5 @@
+#ServerWindow2 컴파일 플래그
+gcc -o ServerWindow2 ServerWindow2.c `pkg-config --cflags --libs gtk+-3.0`
+
+#qr3 컴파일 플래그
+gcc -o qr_scanner3 qr_scanner3.c -lopencv_core -lopencv_highgui -lopencv_imgproc -lzbar
